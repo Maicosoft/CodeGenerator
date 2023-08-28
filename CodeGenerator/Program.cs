@@ -31,6 +31,7 @@ static List<string> GenereerCode(int aantalCodes, int aantalLetters)
     return codes;
 }
 
+//Hieronder kun je aangeven hoeveel codes je wil en uit hoeveel letters elke code moet bestaan
 foreach (string code in GenereerCode(25, 25))
 {
     Console.WriteLine(code);
